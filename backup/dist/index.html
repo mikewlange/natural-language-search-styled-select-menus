@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Natural language search styled select menus</title>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form id="form" method="get" target="_blank">
+  <div class="search-panel open">
+    <div class="left">
+      <div class="question">
+        <span class="text">Whats's my return with a</span>
+       <span class="select">
+          <select name="principal" id="depositAmt">
+            <option value="200">$200</option>
+            <option value="1000">$1000</option>
+            <option value="5000" selected>$5000</option>
+          </select>
+        </span>
+        <span class="text">initial investment and a</span>
+        <span class="select">
+          <select name="principal" id="principal">
+            <option value="200">$200</option>
+            <option value="500">$500</option>
+            <option value="1000">$1000</option>
+          </select>
+        </span>
+        <span class="text">monthly investment after</span>
+        <span class="select">
+          <select name="years" id="years">
+            <option value="5">5 years</option>
+            <option value="10" >10 years</option>
+            <option value="20" >20 years</option>
+          </select>
+        </span>
+            <span class="text"> at</span>
+        <span class="select">
+          <select name="forum$ctl01$SecondDropDown" id="interest" name="interest">
+            <option value="5">5%</option>
+            <option value="8" >8%</option>
+            <option value="10" >10%</option>
+          </select>
+        </span>
+        <span class="text"> componded monthly?</span>
+
+
+   <button stype="float:right" type="submit">CALCULATE</button>
+</form>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
